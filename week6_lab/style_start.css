@@ -19,7 +19,26 @@ h1 {
 }
 
 img.thumbnail {
-	max-width: 300px;
-	max-height: auto;
+  max-width: 300px;
+  max-height: auto;
 }
 /* Add your flexbox CSS below here */
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 300px;
+}

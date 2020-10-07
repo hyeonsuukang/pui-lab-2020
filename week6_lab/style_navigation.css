@@ -19,8 +19,8 @@ h1 {
 }
 
 img.thumbnail {
-	max-width: 300px;
-	max-height: auto;
+  max-width: 300px;
+  max-height: auto;
 }
 
 /* Add your flexbox CSS below here */
