@@ -59,47 +59,47 @@ h1 {
   grid-gap: 10px;
   grid-auto-rows: 100px;
   grid-template-areas: 
-	"hd hd hd hd hd hd hd hd hd"
-	"sd sd sd main main main main main main"
-	"sd sd sd ft ft ft ft ft ft";
+  "hd hd hd hd hd hd hd hd hd"
+  "sd sd sd main main main main main main"
+  "sd sd sd ft ft ft ft ft ft";
 }
 
 .wrapper > div {
-    border: 2px solid #ffa94d;
-    border-radius: 5px;
-    background-color: #ffd8a8;
-    padding: 1em;
-    color: #d9480f;
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
 }
 
 .header {
-    grid-area: hd;
-    transition: background-color .5s;
+  grid-area: hd;
+  transition: background-color .5s;
 }
 .header:hover {
-	background-color: #FFFF00;
+  background-color: #FFFF00;
 }
 .header:active {
-	background-color: #0250bb;
+  background-color: #0250bb;
 }
 .footer {
-    grid-area: ft;
+  grid-area: ft;
 }
 .footer:hover {
-    grid-area: ft;
-    background-color: #FFFF00;
+  grid-area: ft;
+  background-color: #FFFF00;
 }
 .content {
-    grid-area: main;
+  grid-area: main;
 }
 .content:hover {
-    grid-area: main;
-    background-color: #FFFF00;
+  grid-area: main;
+  background-color: #FFFF00;
 }
 .sidebar {
-    grid-area: sd;
+  grid-area: sd;
 }
 .sidebar:hover {
-    grid-area: sd;
-    background-color: #FFFF00;
+  grid-area: sd;
+  background-color: #FFFF00;
 }
